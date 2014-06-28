@@ -1,0 +1,16 @@
+[
+{
+  "modid": "LetsModReboot",
+  "name": "Lets Mod Reboot",
+  "description": "youtub series pahimar",
+  "version": "1.0",
+  "mcversion": "1.7.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["walguru"],
+  "credits": "The Forge and FML guys, for making this example and pahimar for the tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
