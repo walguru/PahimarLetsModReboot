@@ -1,3 +1,4 @@
 eclipse/
 .gradle/
 build/
+*.class
