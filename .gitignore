@@ -1,5 +1,6 @@
 eclipse/
 .gradle/
+.idea/
 build/
 out/
 *.class
