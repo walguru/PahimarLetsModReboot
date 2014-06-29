@@ -1,5 +1,6 @@
 package com.walguru.letsmodreboot;
 
+import com.walguru.letsmodreboot.configuration.ConfigurationHandler;
 import com.walguru.letsmodreboot.proxy.IProxy;
 import com.walguru.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -21,7 +22,10 @@ public class LetsModReboot {
 
     @Mod.EventHandler
     public void PreInit(FMLPreInitializationEvent event)
-    {}
+    {
+        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+
+    }
 
     @Mod.EventHandler
     public  void Init(FMLInitializationEvent event)
