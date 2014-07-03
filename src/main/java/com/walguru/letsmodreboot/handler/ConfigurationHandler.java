@@ -17,6 +17,7 @@ public class ConfigurationHandler {
         //Create configuration object from configuration file
         if (configuration==null) {
             configuration = new Configuration(configFile);
+            LoadConfiguration();
         }
 
     }
@@ -33,7 +34,7 @@ public class ConfigurationHandler {
     }
 
 
-    public  void LoadConfiguration()
+    public static  void LoadConfiguration()
     {
         testValue= configuration.getBoolean("configValue",Configuration.CATEGORY_GENERAL, false,"This is an example configuration value");
 
