@@ -34,7 +34,7 @@ public class ConfigurationHandler {
     }
 
 
-    public static  void LoadConfiguration()
+    private static  void LoadConfiguration()
     {
         testValue= configuration.getBoolean("configValue",Configuration.CATEGORY_GENERAL, false,"This is an example configuration value");
 

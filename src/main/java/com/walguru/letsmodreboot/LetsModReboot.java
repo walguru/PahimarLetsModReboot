@@ -1,6 +1,7 @@
 package com.walguru.letsmodreboot;
 
 import com.walguru.letsmodreboot.handler.ConfigurationHandler;
+import com.walguru.letsmodreboot.init.ModItems;
 import com.walguru.letsmodreboot.proxy.IProxy;
 import com.walguru.letsmodreboot.reference.Reference;
 import com.walguru.letsmodreboot.utility.LogHelper;
@@ -29,6 +30,7 @@ public class LetsModReboot {
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre Initialization complete");
 
+        ModItems.init();
     }
 
     @Mod.EventHandler
