@@ -1,9 +1,11 @@
 package com.walguru.letsmodreboot.block;
 
+import com.walguru.letsmodreboot.creativetab.CreativeTabPLMRB;
 import com.walguru.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
+
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
@@ -12,6 +14,8 @@ public class BlockPLMRB extends Block {
     public BlockPLMRB(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabPLMRB.PLMRBTab);
+
     }
 
 

@@ -1,12 +1,12 @@
 package com.walguru.letsmodreboot.item;
 
+import com.walguru.letsmodreboot.creativetab.CreativeTabPLMRB;
 import com.walguru.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import scala.tools.nsc.backend.icode.TypeKinds;
 
 public class ItemPLMRB extends Item {
 
@@ -15,7 +15,7 @@ public class ItemPLMRB extends Item {
     {
         super  ();
         this.maxStackSize=1;
-
+        this.setCreativeTab(CreativeTabPLMRB.PLMRBTab);
     }
 
     @Override

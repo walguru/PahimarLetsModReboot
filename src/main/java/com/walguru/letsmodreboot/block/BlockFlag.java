@@ -6,5 +6,6 @@ public class BlockFlag extends BlockPLMRB {
     {
         super();
         this.setBlockName("flag");
+
     }
 }

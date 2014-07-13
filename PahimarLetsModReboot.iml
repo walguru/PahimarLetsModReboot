@@ -7,7 +7,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/api/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/api/resources" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
@@ -67,19 +66,19 @@
     <orderEntry type="library" exported="" name="Gradle: twitch-platform-5.16-natives-windows-64" level="project" />
     <orderEntry type="library" exported="" name="Gradle: twitch-external-platform-4.5-natives-windows-32" level="project" />
     <orderEntry type="library" exported="" name="Gradle: twitch-external-platform-4.5-natives-windows-64" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: forgeSrc-1.7.10-10.13.0.1170" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: forgeSrc-1.7.10-10.13.0.1179" level="project" />
     <orderEntry type="library" exported="" name="Gradle: scala-parser-combinators_2.11-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: scala-xml_2.11-1.0.2" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: C__Users_Aurora__gradle_caches_minecraft_net_minecraftforge_forge_1_7_10_10_13_0_1170_start" level="project" />
-    <orderEntry type="jdk" jdkName="1.7 U60" jdkType="JavaSDK" />
+    <orderEntry type="library" exported="" scope="RUNTIME" name="Gradle: C__Users_Aurora__gradle_caches_minecraft_net_minecraftforge_forge_1_7_10_10_13_0_1179_start" level="project" />
+    <orderEntry type="jdk" jdkName="1.7U55" jdkType="JavaSDK" />
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1170/forgeSrc-1.7.10-10.13.0.1170.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1179/forgeSrc-1.7.10-10.13.0.1179.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1170/forgeSrc-1.7.10-10.13.0.1170-sources.jar!/" />
+          <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1179/forgeSrc-1.7.10-10.13.0.1179-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -707,10 +706,10 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1170/start" />
+          <root url="file://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1179/start" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
