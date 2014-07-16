@@ -7,7 +7,7 @@ import net.minecraft.item.Item;
 
 public class CreativeTabPLMRB {
 
-    public static  final CreativeTabs PLMRBTab= new CreativeTabs(Reference.MOD_ID)
+    public static  final CreativeTabs PLMRBTab= new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()
@@ -16,11 +16,7 @@ public class CreativeTabPLMRB {
         }
 
 
-        @Override
-        public String getTranslatedTabLabel()
-        {
-                return "Let's Mod Reboot";
-        }
+
 
     };
 

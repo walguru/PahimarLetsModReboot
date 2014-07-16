@@ -14,7 +14,7 @@ public class ItemPLMRB extends Item {
     public ItemPLMRB()
     {
         super  ();
-        this.maxStackSize=1;
+        this.maxStackSize=2;
         this.setCreativeTab(CreativeTabPLMRB.PLMRBTab);
     }
 
