@@ -1,8 +1,10 @@
 package com.walguru.letsmodreboot;
 
+import com.walguru.letsmodreboot.client.handler.KeyInputEventHandler;
 import com.walguru.letsmodreboot.handler.ConfigurationHandler;
 import com.walguru.letsmodreboot.init.ModBlocks;
 import com.walguru.letsmodreboot.init.ModItems;
+import com.walguru.letsmodreboot.init.Recipes;
 import com.walguru.letsmodreboot.proxy.IProxy;
 import com.walguru.letsmodreboot.reference.Reference;
 import com.walguru.letsmodreboot.utility.LogHelper;
@@ -29,15 +31,24 @@ public class LetsModReboot {
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Initialization complete");
+
+
+        proxy.registerKeyBindings();
 
         ModItems.init();
+
         ModBlocks.init();
+
+
+
+        LogHelper.info("Pre Initialization complete");
     }
 
     @Mod.EventHandler
     public  void Init(FMLInitializationEvent event)
     {
+        FMLCommonHandler.instance().bus().register((new KeyInputEventHandler()));
+        Recipes.init();
         LogHelper.info(" Initialization complete");
 
     }
